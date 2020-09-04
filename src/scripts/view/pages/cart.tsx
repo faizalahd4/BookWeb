@@ -128,7 +128,7 @@ export const CartPage = (props:any) => {
 					</div>
 					<div className="flex1">
 						<p className="title">Shopping Bag</p>
-						<div className={[cart.length === 0, "empty-container"].join(" ")}>
+						<div className={[cart.length === 0 ? '' : 'd-none', "empty-container"].join(" ")}>
 							<p>Your cart is empty.</p>
 							<button onClick={() => backToHome()}>Continue Shopping</button>
 						</div>

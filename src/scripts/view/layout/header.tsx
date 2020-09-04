@@ -46,7 +46,7 @@ export const Header = (props: any) => {
 		<>	
 			<div className="header">
 			  <i className="icon-reorder menu-icon" onClick={() => toggleMenuMobile()}></i><a href="#default" className="logo" onClick={() => navigate('/')}>Book Site / <span className="subtitle">{props.subtitle}</span></a>
-			  <div className={["header-right", showMenu ? 'd-show' : 'd-none'].join(" ")}>
+			  <div className={["header-right", showMenu ? 'd-show' : 'd-mNone'].join(" ")}>
 			    <a className={props.selectedMenu === 'BOOKS' ? "active" : ""} href="#home" onClick={() => navigate('/')}>Home</a>
 			    <a className={props.selectedMenu === 'MY_ORDER' ? "active" : ""} href="#myorder" onClick={() => navigate('/myOrder')}>My Order</a>
 			    <a className={props.selectedMenu === 'CART' ? "active" : ""} href="#cart" onClick={() => navigate('/cart')}>Cart</a>
