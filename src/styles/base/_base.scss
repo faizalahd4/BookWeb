@@ -1,0 +1,83 @@
+/**
+*
+* _base.scss
+*
+* @author - Faizal
+* @date   - 2 September 2020
+***/
+html, body {
+  height: 100%;
+  margin: 0;
+  color: #2d3436;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+	padding-right: 0 !important;
+}
+.main-wrapper {
+	max-width: 900px;
+	min-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #efefef;
+	box-shadow: 0 1px 4px #efefef;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.flex1 {
+	flex: 1
+}
+.fstart {
+	align-self: flex-start
+}
+.fend {
+	align-self: flex-end
+}
+button {
+	padding: 8px 15px;
+	font-size: 12px;
+	letter-spacing: 0.9px;
+	font-weight: 450;
+	background: #f5cd79;
+	text-transform: uppercase;
+	border: 1px solid #f5cd79;
+	color: #222;
+	margin-right: 10px;
+	border-radius: 5px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.empty-container {
+	text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+	p {
+		font-weight: 400;
+		font-size: 14px;
+		color: #444;
+	}
+}
+
+@media screen and (max-width: 500px) {
+  	.main-wrapper {
+  		max-width: 100%;
+    	min-width: 100%;
+    	display: block;
+    	box-sizing: border-box;
+	}
+	button {
+		padding: 12px 15px;
+		font-size: 17px;
+		font-weight: 500;
+	}
+	.d-none {
+		display: none;
+	}
+	.d-show {
+		display: block;
+	}
+}

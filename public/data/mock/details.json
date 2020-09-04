@@ -1,0 +1,107 @@
+{
+	"responseCode": 0,
+	"responseMsg": "",
+	"data": 
+		[
+			{
+				"bookId": 1,
+				"title":  "Educated",
+				"desc":  "I’ve seen this book pop up on social media, in stores, and on “best of” lists. Each time, I’m struck by how smart it is. I love the combination of the clever pencil, holding the figure in the “mountain top,” paired with the simplicity and strength of the type. Perfect visual tone and perfect execution.",
+				"cost": "10.45",
+				"authorName": "Patrik Svensson",
+				"pageCount": 450,
+				"ISBN": "BK1450AB6700",
+				"img": "../img/books/1.jpg"
+			},
+			{
+				"bookId": 2,
+				"title":  "Hiroaki Sato",
+				"desc":  "While books about poetry can afford to be more abstract, they still usually look like book covers. This looks like it could be a poster for a contemporary jazz concert made by someone in an MFA design program. The type, treated like an image, is audacious in the way it has been broken up. I love how each word has a circle in place of a letter (or part of). That unwavering formal logic, along with the sophisticated color palette, win me over.",
+				"cost": "13.33",
+				"authorName": "Rodrigo Corral",
+				"pageCount": 420,
+				"ISBN": "BK2450AB6700",
+				"img": "../img/books/2.jpg"
+			},
+			{
+				"bookId": 3,
+				"title":  "Heart Spring Mountain",
+				"desc":  "This cover does a great job of invoking innocence, nature and a “simpler time and place,” which is something I think is more difficult to accomplish than it seems when you must also suggest the presence of people. Theres a lovely balance in the way the type is handled that complements the artwork and doesn’t try to overpower it, yet feels fresh and contemporary.",
+				"cost": "29.90",
+				"authorName": "Robin MacArthur",
+				"pageCount": 677,
+				"ISBN": "BK3450AB6700",
+				"img": "../img/books/3.jpg"
+			},
+			{
+				"bookId": 4,
+				"title":  "George Saunders",
+				"desc":  "This is one of those covers where I’m sure there was a version that was just the illustration. Every designer tries for the no-type-on-a-cover unicorn. The illustration is so beautiful! The subtle texture to his fur and the color choices make me so happy. Again, I feel like I’m always aiming for a simple color scheme on covers and Chelsea nailed this one. The type is so wonderfully designed. It’s such simple lettering, but you can tell each letter was considered to make it feel unique but get out of the way of the illustration. Also, cannot wait to read this! Based on the little I know of the story, I feel like the fox is curled in such a way that he really is sitting outside of a window listening to children’s stories. Spoiler (not really), that’s apparently what happens.",
+				"cost": "33.39",
+				"authorName": "Fox 8",
+				"pageCount": 210,
+				"ISBN": "BK4450AB6700",
+				"img": "../img/books/4.jpg"
+			},
+			{
+				"bookId": 5,
+				"title":  "Dog Symphony",
+				"desc":  "Surreal and weirdly computer-glitchy. This illustration makes me want to go into this novel and get lost with the dogs.",
+				"cost": "12.30",
+				"authorName": "Sam Munson",
+				"pageCount": 320,
+				"ISBN": "BK5450AB6700",
+				"img": "../img/books/5.jpg"
+			},
+			{
+				"bookId": 6,
+				"title":  "Branches",
+				"desc":  "While collage is frequently used as a device for illustrating book covers, the design of Branches by Mark Truscott is very fresh. The segmentation of the tree, and the re-organization of its parts, is a metaphor for a personal perspective; we often don’t see the whole tree, but we catch glimpses of it from different angles. The understated typography and neutral palette allow the beautiful idea behind this cover to come to the fore.",
+				"cost": "45.40",
+				"authorName": "Mark Truscott",
+				"pageCount": 124,
+				"ISBN": "BK6450AB6700",
+				"img": "../img/books/6.jpg"
+			},
+			{
+				"bookId": 7,
+				"title":  "Kari Dickson",
+				"desc":  "It’s oftentimes challenging to create an all type cover that conveys movement, let alone with elegance and emotion. The cover feels so alive and fluid. Every time I see this, I’m just captivated by its subtle beauty.",
+				"cost": "9.10",
+				"authorName": "Gunnhild Oyehaug",
+				"pageCount": 378,
+				"ISBN": "BK7450AB6700",
+				"img": "../img/books/7.jpg"
+			},
+			{
+				"bookId": 8,
+				"title":  "The Independent Woman",
+				"desc":  "This cover is small in size, but has such a big personality. Adalis created such an elegant package with simple painted art and type, and it feels special. The colors on the printed cover are so nuanced and beautiful and this is an object you want to hold.",
+				"cost": "55.00",
+				"authorName": "Simone de Beauvoir",
+				"pageCount": 601,
+				"ISBN": "BK8450AB6700",
+				"img": "../img/books/8.jpg"
+			},
+			{
+				"bookId": 9,
+				"title":  "No Miracles",
+				"desc":  "The perfect marriage of word and image, this cover is sublime! Those stark, radiating beams harken back to the Ecstasy of St. Teresa—pure and uninhibited. In person, they vibrate intensely, promising revelatory truth and transcendence—despite the title’s declaration. It’s as if we’re staring straight through the solar eclipse into the great beyond.",
+				"cost": "21.50",
+				"authorName": "Casey Gerald",
+				"pageCount": 290,
+				"ISBN": "BK9450AB6700",
+				"img": "../img/books/9.jpg"
+			},
+			{
+				"bookId": 10,
+				"title":  "Small Fry",
+				"desc":  "Alison’s work is consistently great and here is another example. Defying some of the clichés this cover could have fallen into as it relates to Steve Jobs’ daughter, the cover is instead illuminating. The floral elements add an organic nature that mirrors the author’s writing. The font is unexpected and bold and gives the viewer a sense of how unique the author’s story is, while the overall white background hints at the deeper connections to Jobs’ legacy.",
+				"cost": "65.80",
+				"authorName": "Lisa Brennan",
+				"pageCount": 353,
+				"ISBN": "BK10450AB6700",
+				"img": "../img/books/10.jpg"
+			}
+	]
+}

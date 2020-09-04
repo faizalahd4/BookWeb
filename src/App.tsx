@@ -1,25 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/**
+*
+* App.js
+* Starting of the app
+*
+* @author - Faizal
+* @date   - 2 September 2020
+*
+***/
+// REACT NATIVE IMPORT
+import React, {useReducer, useContext, useEffect} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+
+// ALL PAGE FILES
+import {AllBookPage} from './scripts/view/pages/allBook';
+import {BookDetailsPage} from './scripts/view/pages/bookDetails';
+import {CartPage} from './scripts/view/pages/cart';
+import {MyOrderPage} from './scripts/view/pages/myOrder';
 
 function App() {
+
+  // RENDER HTML
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router basename={'/'}>
+        <Route path="/" exact component={AllBookPage}/>
+        <Route path="/bookDetails/:bookId" exact component={BookDetailsPage}/>
+        <Route path="/cart" exact component={CartPage}/>
+        <Route path="/myOrder" exact component={MyOrderPage}/>
+      </Router>
     </div>
+    </>
   );
 }
 

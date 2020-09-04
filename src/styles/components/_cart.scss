@@ -1,0 +1,132 @@
+/**
+*
+* _cart.scss
+*
+* @author - Faizal
+* @date   - 2 September 2020
+***/
+#cart {
+	input{
+		display: block;
+	    width: 80%;
+	    border: 1px solid #efefef;
+	    box-shadow: 0 1px 4px #efefef;
+	    padding: 10px 10px;
+	    font-size: 14px;
+	    margin-bottom: 10px;
+	    border-radius: 3px;
+	}
+	.title {
+		font-size: 16px;
+	    font-weight: 600;
+	    margin-bottom: 25px;
+	}
+	.icon-remove {
+		color: red;
+		font-weight: bold;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.table-type2-row {
+		margin-bottom: 10px;
+		font-size: 13px;
+	    font-weight: 400;
+	}
+	.total {
+		border-top: 1px solid #efefef;
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+	}
+	.cart-list-container {
+		list-style: none;
+		padding: 0;
+		.cart-list-item-container {
+			border: 1px solid #efefef;
+			border-top: 0;
+			box-shadow: 0 1px 4px #efefef;
+			margin-bottom: 20px;
+			b {
+				font-weight: 700;
+			}
+			.table-type1-header {
+				background: #f5cd79;
+				color: #222;
+			    padding: 10px;
+			    font-size: 14px;
+			    font-weight: 400;
+			}
+			.table-type1-content {
+				padding: 10px;
+				.table-type1-img {
+					img {
+						width: 80px
+					}
+				}
+				.table-type1-subcontent {
+					padding-left: 20px;
+					.title {
+						padding: 6px 0 0 0;
+					    margin: 0;
+					    font-size: 17px;
+					    font-weight: 600;
+					    color: #222;
+					}
+					.author {
+						padding: 4px 0 4px 0;
+					    margin: 0;
+					    font-size: 13px;
+					    font-weight: 400;
+					    color: #666;
+					}
+					.cost {
+						padding: 0;
+					    margin: 0;
+					    font-size: 13px;
+					    font-weight: 600;
+					    color: #222;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+  	#cart {
+  		input{
+			display: block;
+		    width: 90%;
+		    padding: 15px 10px;
+		    font-size: 18px;
+		    margin-bottom: 15px;
+		}
+	  	.d-block {
+	  		display: block;
+	  	}
+	  	.title {
+			font-size: 22px;
+		}
+
+		.table-type2-row {
+			font-size: 17px;
+		}
+		.cart-list-container {
+			.cart-list-item-container {
+				.table-type1-content {
+					.table-type1-subcontent { 
+						.title {
+							font-size: 18px;
+						}
+						.author {
+							font-size: 16px;
+						}
+						.cost {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}

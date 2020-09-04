@@ -1,0 +1,72 @@
+/**
+*
+* _myorder.scss
+*
+* @author - Faizal
+* @date   - 2 September 2020
+***/
+#myorder {
+	.myorder-list-container {
+		list-style: none;
+		.myorder-list-item-container {
+			border: 1px solid #efefef;
+			border-top: 0;
+			box-shadow: 0 1px 4px #efefef;
+			margin-bottom: 20px;
+			b {
+				font-weight: 700;
+			}
+			.table-type1-header {
+				background: #f5cd79;
+				color: #222;
+			    padding: 10px;
+			    font-size: 14px;
+			    font-weight: 400;
+			}
+			.table-type1-content {
+				padding: 10px;
+				.table-type1-img {
+					img {
+						width: 80px
+					}
+				}
+				.table-type1-subcontent {
+					padding-left: 20px;
+					.title {
+						padding: 6px 0 0 0;
+					    margin: 0;
+					    font-size: 17px;
+					    font-weight: 600;
+					    color: #222;
+					}
+					.author {
+						padding: 4px 0 4px 0;
+					    margin: 0;
+					    font-size: 13px;
+					    font-weight: 400;
+					    color: #666;
+					}
+					.cost {
+						padding: 0;
+					    margin: 0;
+					    font-size: 13px;
+					    font-weight: 600;
+					    color: #222;
+					}
+				}
+			}
+		}
+	}
+}
+.text-right  {
+	text-align: right
+}
+
+
+@media screen and (max-width: 500px) {
+  	#myorder {
+  		.myorder-list-container {
+  			padding: 0;
+  		}
+	}
+}

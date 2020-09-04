@@ -1,0 +1,71 @@
+/**
+*
+* _details.scss
+*
+* @author - Faizal
+* @date   - 2 September 2020
+***/
+#book-details {
+	.img-container {
+		text-align: center;
+		.img-cover {
+			width: 70%
+		}
+	}
+	.title {
+		padding: 6px 0 0 0;
+	    margin: 0;
+	    font-size: 35px;
+	    font-weight: 500;
+	    color: #222;
+	}
+	.content-line {
+		padding: 6px 0 0 0;
+	    margin: 0;
+	    font-size: 14px;
+	    font-weight: 300;
+	    color: #222;
+	    b {
+	    	font-weight: bold;
+	    	font-size: 15px;
+	    	width: 100px;
+	    	display: inline-block;
+	    }
+	}
+	.desc {
+		padding: 6px 0 0 0;
+	    margin: 0;
+	    font-size: 14px;
+	    font-weight: 300;
+	    color: #222;
+		line-height: 20px
+	}
+	.btn-container {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+  	#book-details {
+	  	.row {
+	  		display: block;
+	  		.img-container {
+	  			margin-bottom: 20px;
+	  		}
+	  		.content-line {
+				padding: 6px 0 0 0;
+			    font-size: 20px;
+			    b {
+			    	font-size: 21px;
+	    			width: 40%;
+			    }
+			}
+			.desc {
+				padding: 6px 0 0 0;
+			    font-size: 20px;
+				line-height: 30px
+			}
+	  	}
+	}
+}
